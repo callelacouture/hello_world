@@ -4,7 +4,7 @@ import Header from "../components/header"
 
 export default () => <div style={{ color: `green`}}>
 <Header headerText="This is the Home Page"/>
-  <h1>Howdy World!</h1>
+  <h1>This is the beginning of our Decibel journey!</h1>
   <p>This is a paragraph.</p>
   <Link to="/about">About</Link>
   <br></br>
