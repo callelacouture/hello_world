@@ -8,5 +8,7 @@ export default () => <div style={{ color: `green`}}>
   <p>This is a paragraph.</p>
   <Link to="/about">About</Link>
   <br></br>
+  <Link to="/about-css-modules">Users</Link>
+  <br></br>
   <img src='https://source.unsplash.com/random/600x300' alt='imageRandom'></img>
 </div>

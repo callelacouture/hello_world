@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby";
 import styles from "./about-css-modules.module.css"
 import Container from "../components/container"
 console.log(styles);
@@ -28,5 +29,8 @@ export default () => (
       avatar="https://s3.amazonaws.com/uifaces/faces/twitter/vladarbatov/128.jpg"
       excerpt="I'm Bob Smith, a vertically aligned type of guy. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     />
+    <div>
+      <Link to="/">Go Home</Link>
+    </div>
   </Container>
 )
